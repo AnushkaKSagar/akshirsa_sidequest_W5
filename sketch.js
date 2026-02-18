@@ -218,8 +218,7 @@ function mousePressed() {
 
     flashMsg   = level.symbols[idx].message;
 
-    flashTimer = 80;
-
+    flashTimer = 110;
     pauseTimer = PAUSE_FRAMES * 2; // linger after discovery
 
   }
