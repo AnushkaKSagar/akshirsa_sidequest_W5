@@ -2,32 +2,101 @@
   "schemaVersion": 1,
   "levels": [
     {
-      "name": "Intro Steps",
+      "name": "Dreamscape",
+ 
       "theme": {
-        "bg": "#F0F0F0",
-        "platform": "#C8C8C8",
-        "blob": "#1478FF"
+        "bg":          "#0d0d1a",
+        "platform":    "#2a3d5a",
+        "skyTop":      "#07071a",
+        "skyHorizon":  "#2b1a3a",
+        "hillFar":     "#1a1035",
+        "hillMid":     "#22183d",
+        "hillNear":    "#0e2820"
       },
+ 
       "gravity": 0.65,
-      "jumpV": -11.0,
-      "camera": { "lerp": 0.12 },
-      "world": { "w": 2400, "h": 360, "deathY": 560 },
-      "start": { "x": 80, "y": 220, "r": 26 },
+      "jumpV":   -11.0,
+      "camera":  { "lerp": 0.06 },
+      "world":   { "w": 5000, "h": 500, "deathY": 900 },
+      "start":   { "x": 80, "y": 300, "r": 26 },
+ 
       "platforms": [
-        { "x": 0, "y": 424, "w": 640, "h": 36 },
-        { "x": 120, "y": 354, "w": 120, "h": 12 },
-        { "x": 300, "y": 304, "w": 90, "h": 12 },
-        { "x": 440, "y": 244, "w": 130, "h": 12 },
-        { "x": 520, "y": 354, "w": 90, "h": 12 },
-        { "x": 570, "y": 164, "w": 30, "h": 12 },
-
-        { "x": 720, "y": 424, "w": 420, "h": 36 },
-        { "x": 760, "y": 364, "w": 110, "h": 12 },
-        { "x": 930, "y": 324, "w": 110, "h": 12 },
-        { "x": 1090, "y": 284, "w": 110, "h": 12 },
-
-        { "x": 1200, "y": 424, "w": 520, "h": 36 },
-        { "x": 1400, "y": 344, "w": 140, "h": 12 }
+        { "x": 0,    "y": 460, "w": 5000, "h": 40 },
+        { "x": 200,  "y": 370, "w": 160,  "h": 12 },
+        { "x": 480,  "y": 320, "w": 120,  "h": 12 },
+        { "x": 680,  "y": 270, "w": 100,  "h": 12 },
+        { "x": 900,  "y": 350, "w": 200,  "h": 12 },
+        { "x": 1150, "y": 300, "w": 130,  "h": 12 },
+        { "x": 1380, "y": 240, "w": 80,   "h": 12 },
+        { "x": 1550, "y": 310, "w": 220,  "h": 12 },
+        { "x": 1820, "y": 270, "w": 150,  "h": 12 },
+        { "x": 2100, "y": 350, "w": 300,  "h": 12 },
+        { "x": 2460, "y": 290, "w": 120,  "h": 12 },
+        { "x": 2680, "y": 240, "w": 90,   "h": 12 },
+        { "x": 2900, "y": 330, "w": 180,  "h": 12 },
+        { "x": 3150, "y": 280, "w": 140,  "h": 12 },
+        { "x": 3400, "y": 360, "w": 260,  "h": 12 },
+        { "x": 3720, "y": 310, "w": 110,  "h": 12 },
+        { "x": 3950, "y": 260, "w": 100,  "h": 12 },
+        { "x": 4200, "y": 340, "w": 200,  "h": 12 },
+        { "x": 4500, "y": 390, "w": 300,  "h": 12 }
+      ],
+ 
+      "symbols": [
+        {
+          "x": 420,  "y": 295, "r": 20,
+          "glyph": "◯",
+          "color": "#a8d8ea",
+          "message": "stillness is not emptiness"
+        },
+        {
+          "x": 870,  "y": 220, "r": 18,
+          "glyph": "✦",
+          "color": "#f9d4a0",
+          "message": "breathe in what you cannot name"
+        },
+        {
+          "x": 1340, "y": 205, "r": 22,
+          "glyph": "△",
+          "color": "#c3aed6",
+          "message": "the peak is just another place to rest"
+        },
+        {
+          "x": 1780, "y": 240, "r": 19,
+          "glyph": "⟡",
+          "color": "#80ced7",
+          "message": "distance is only felt when you stop moving"
+        },
+        {
+          "x": 2420, "y": 260, "r": 21,
+          "glyph": "☽",
+          "color": "#ffe0b2",
+          "message": "even the moon forgets its shape sometimes"
+        },
+        {
+          "x": 2850, "y": 300, "r": 17,
+          "glyph": "∞",
+          "color": "#b2f7ef",
+          "message": "loops are not failure — they are return"
+        },
+        {
+          "x": 3380, "y": 250, "r": 20,
+          "glyph": "✧",
+          "color": "#ffd6e0",
+          "message": "you are allowed to be exactly here"
+        },
+        {
+          "x": 3900, "y": 225, "r": 18,
+          "glyph": "◈",
+          "color": "#d4f1c0",
+          "message": "notice the quiet between the notes"
+        },
+        {
+          "x": 4450, "y": 360, "r": 22,
+          "glyph": "❋",
+          "color": "#f0c4d4",
+          "message": "every journey ends where it always began"
+        }
       ]
     }
   ]
