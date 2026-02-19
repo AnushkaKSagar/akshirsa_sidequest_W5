@@ -44,8 +44,7 @@ class Camera2D {
     push();
     translate(-this.x, -this.y);
   }
- 
-  // ORIGINAL — unchanged
+  
   end() {
     pop();
   }
