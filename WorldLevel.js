@@ -79,7 +79,7 @@ class WorldLevel {
     for (let i = 0; i < 120; i++) {
       const sx = (random(W) - camX * 0.05) % W;
       const sy = random(H * 0.6);
-      ellipse(sx, sy, random(0.5, 2.2));
+      ellipse(sx, sy, random(1.9, 4.2));
     }
     randomSeed();
  
