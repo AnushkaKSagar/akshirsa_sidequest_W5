@@ -29,18 +29,12 @@ let cam;
 // ── Meditative scroll state ───────────────────────────────────────────────────
 
 let scrollT     = 0;      // moves through Perlin space each frame
-
 let scrollSpeed = 0.4;    // current speed (pixels/frame)
-
 let targetSpeed = 0.4;
-
 let pauseTimer  = 0;      // frames remaining in a symbol-proximity pause
- 
-const BASE_SPEED   = 0.4;
-
-const MAX_SPEED    = 1.1;
-
-const PAUSE_FRAMES = 110; // ~2 sec pause near a symbol
+const BASE_SPEED   = 1.9;
+const MAX_SPEED    = 0.9;
+const PAUSE_FRAMES = 100; // ~2 sec pause near a symbol
  
 // ── Discovery state ───────────────────────────────────────────────────────────
 
@@ -194,9 +188,9 @@ function draw() {
 
   textAlign(LEFT, BASELINE);
 
-  text("click glowing symbols to discover", 16, height - 14);
+  text("Click on glowing symbols to discover", 19, height - 14);
 
-  text("discovered: " + discovered.length + " / " + level.symbols.length, 16, height - 30);
+  text("discovered: " + discovered.length + " / " + level.symbols.length, 19, height - 30);
 
 }
  
